@@ -1,5 +1,9 @@
-#!/bin/sh
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir> <env-dir>
+set -e
 
-set -e            # fail fast
+echo "-----> Installing script-core-0.3.2"
 
 gem install script_core --no-ri --no-rdoc -v 0.3.2
+
+echo "-----> script-core-0.3.2 done"

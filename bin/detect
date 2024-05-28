@@ -1,5 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
+# bin/detect <build-dir>
 
-echo "script_core install"
-
-exit 0
+echo "script_core" && exit 0
