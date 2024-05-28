@@ -1,6 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 set -e            # fail fast
-set -o pipefail   # don't ignore exit codes when piping output
 
 gem install script_core --no-ri --no-rdoc -v 0.3.2
